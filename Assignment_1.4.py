@@ -4,11 +4,12 @@ Created on Mon Mar 12 12:19:34 2018
 
 @author: singh.shivam
 """
-# Assignment 1.4 Calculate Volume of a sphere#
+# Assignment 1.4 Calculate Volume of a sphere
+import math
 def Vol(diameter):
       Volume= 0
       radius = diameter/2
-      Volume=4/3*(3.14*pow(radius,3))
+      Volume=4/3*(math.pi*math.pow(radius,3))
       
       return Volume
 
